@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <!-- meta tags and title -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Measuring Units</title>
+
+    <!-- external and internal CSS -->
+    <link rel="stylesheet" href="styles.css" media="all">
+    <style>
+    
+    </style>
+
+</head>
+
+<body>
+    <h1 style="text-align:center;">The Difference Between Absolute and Relative CSS Length Units</h1>
+    <p style="text-align:center;">Absolute units are for specifying a fixed length value. It doesn't matter what the size of the screen is, the
+        value will remain the same.</p>
+    <p style="text-align:center;">Relative units aren't fixed. Their values are "relative" to another value, which means that when one value
+        changes, the relative unit changes with it. These units depend on other elements for its size, such as the
+        parent.</p>
+
+    <h2 style="text-align:center;">Px/pt, em/rem, and vw/vh in Detail</h2>
+    <p style="text-align:center;">Px stands for pixels and is an absolute unit. It's defined as 1/96th of an inch, but isn't an exact pixel for all
+        screens. Px can be used to make sure borders look consistent across all screens, and that icons and images stay
+        within defined sizing regardless of screen size.</p>
+    <p style="text-align:center;">Pt stands for points, which is also an absolute unit. One point is defined as 1/72 of an inch. For screen
+        displays, using this length unit is discouraged because screen resolution varies between users, so websites can
+        look vastly different depending on the device it's viewed on. However, this length unit is ideal for
+        print-specific CSS because it ensures consistent font sizing on paper.</p>
+    <p style="text-align:center;">Em units are a relative unit, and is dependant on the computed font-size of the element it's used on, or its
+        closest parent element. Em units allow layouts to scale proportionally when the default browser font size
+        changes. This unit of measurement ensures consistent design across different screens and devices.</p>
+    <p style="text-align:center;">Rem stands for "root em" and is also a relative CSS length unit. This unit's size changes depending on the font
+        size of the document's root element. Unlike em, however, the rem unit references a single base size. This unit
+        is good for improving accessibility on a website because font size will change depending on a user's browser
+        settings.</p>
+    <p style="text-align:center;">Vw stands for "viewport width". This is a relative CSS length unit where 1vw would equal 1% of the width of the
+        visible screen area of the user. Vw is always relative to the full width of the browser window and scales as the
+        user resizes the browser window. This is useful for full-width sections of websites and/or images, as well as
+        font size to scale with the screen width.</p>
+    <p style="text-align:center;">Vh stands for "viewport height." Similarly to vw, vh is also a relative CSS length unit. However, 1vh equals 1%
+        of the height of the browser's screen area. The height of the elements with this unit will scale up and down
+        automatically and proportionally when the viewport's height changes. This unit is useful for responsive
+        typography and to vertically center content on the webpage.</p>
+</body>
+
+</html>
