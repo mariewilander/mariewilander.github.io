@@ -40,47 +40,49 @@ header {
 }
 
 h2 {
-  font-family: Verdana;
-  position: relative;
-  left: 5vw;
-  font-size: 2em;
+    font-family: Verdana;
+    position: relative;
+    left: 5vw;
+    font-size: 2em;
 }
 
-h2, li, p {
-  padding-left: 5vw;
-  padding-right: 5vw;
+h2,
+li,
+p {
+    padding-left: 5vw;
+    padding-right: 5vw;
 }
 
 li {
-  list-style-type: circle;
-  font-family: Tahoma;
-  font-size: 1.25em;
-  
+    list-style-type: circle;
+    font-family: Tahoma;
+    font-size: 1.25em;
+
 }
 
-p{
-  font-family: Tahoma;
-  font-size: 1.25em;
+p {
+    font-family: Tahoma;
+    font-size: 1.25em;
 }
 
 #names {
-  background-color: #49a642;
-  padding: 1em;
+    background-color: #49a642;
+    padding: 1em;
 }
 
 #size {
-  background-color: #55a0a6;
-  padding: 1em;
+    background-color: #55a0a6;
+    padding: 1em;
 }
 
 #geography {
-  background-color: #a85cad;
-  padding: 1em;
+    background-color: #a85cad;
+    padding: 1em;
 }
 
 #climate {
-  background-color: #cf9038;
-  padding: 1em;
+    background-color: #cf9038;
+    padding: 1em;
 }
 
 /* PUT THE REST OF THE MOBILE BASLINE LAYOUT HERE */
@@ -98,22 +100,23 @@ p{
 
     #rhodieTitle h1 {
         width: 45vw;
-  }
-  
-  #names {
-    background-color: #cf3030;
-  }
-  
-  #size {
-    background-color: #cf8a30;
-  }
-  
-  #geography {
-     background-color: #464bd4;
-  }
-  
-  #climate {
-    background-color: #8235bd;
-  }
     }
-    /* REST OF THE DESKTOP LAYOUT HERE */
+
+    #names {
+        background-color: #cf3030;
+    }
+
+    #size {
+        background-color: #cf8a30;
+    }
+
+    #geography {
+        background-color: #464bd4;
+    }
+
+    #climate {
+        background-color: #8235bd;
+    }
+}
+
+/* REST OF THE DESKTOP LAYOUT HERE */
