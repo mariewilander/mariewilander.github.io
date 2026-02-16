@@ -1,0 +1,35 @@
+/* mobile-first design for Pacific Rhododendron layout */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    width: 100vw;
+    height: 100vh;
+}
+
+#rhododendronPic {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("rhododendron.jpeg");
+    background-size: cover;
+}
+
+#rhododendronTitle {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+
+#rhododendronTitle h1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
