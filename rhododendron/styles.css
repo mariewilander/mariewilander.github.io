@@ -15,7 +15,7 @@ header {
     height: 100vh;
 }
 
-#rhododendronPic {
+#rhodiePic {
     position: absolute;
     width: 100vw;
     height: 100vh;
@@ -24,13 +24,13 @@ header {
     background-position: center center;
 }
 
-#rhododendronTitle {
+#rhodieTitle {
     position: absolute;
     width: 100vw;
     height: 100vh;
 }
 
-#rhododendronTitle h1 {
+#rhodieTitle h1 {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -40,17 +40,17 @@ header {
 }
 
 @media screen and (orientation: landscape) {
-    #rhododendronPic {
+    #rhodiePic {
         width: 50vw;
     }
 
-    #rhododendronTitle {
+    #rhodieTitle {
         width: 50vw;
         left: 50vw;
         background-color: #333;
     }
 
-    #rhododendronTitle h1 {
+    #rhodieTitle h1 {
         width: 45vw;
 
     }
