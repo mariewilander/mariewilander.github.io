@@ -98,8 +98,22 @@ p{
 
     #rhodieTitle h1 {
         width: 45vw;
-
+  }
+  
+  #names {
+    background-color: #cf3030;
+  }
+  
+  #size {
+    background-color: #cf8a30;
+  }
+  
+  #geography {
+     background-color: #464bd4;
+  }
+  
+  #climate {
+    background-color: #8235bd;
+  }
     }
-
-}
     /* REST OF THE DESKTOP LAYOUT HERE */
