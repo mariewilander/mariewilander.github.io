@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <!-- meta tags and title -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Media Queries</title>
+
+    <!-- external and internal CSS -->
+    <link rel="stylesheet" href="styles.css" media="all">
+    <style>
+        /* in-file CSS here */
+    </style>
+
+</head>
+
+<body>
+    <h1>How does a CSS media query work?</h1>
+    <p>
+        CSS media queries are used to change the appearance and behavior of a website or app. They can be used
+        with HTML and Javascript, but are more commonly associated with CSS. They go in a stylesheet using an
+        <code>@media</code> and defines characteristics of the webpage
+        within rules such as how big and how small the screen needs to be for the rule to apply, the resolution, for
+        print, etc.
+    </p>
+
+    <h1>Why are CSS media queries useful?</h1>
+    <p>
+        CSS media queries are useful when you're designing a responsive website that adapts to different layouts that
+        changes with the size of the screen the webpage is viewed on.
+        It keeps your website useful whether the user is viewing it on a phone, tablet, laptop, desktop, landscape or
+        portrait. No matter how the viewer sees your website,
+        the design is intentional and readable for the person on your website. The use of media queries enhances
+        accessibility, allowing the website to adapt to specific needs.
+        Lastly, the use of media queries applies different capabilities based on the device being used. The website can
+        detect whether the user is using a mouse or a touchscreen
+        and act accordingly.
+    </p>
+
+    <h1>Media features supported by media queries-and what they do.</h1>
+    <h2>Width</h2>
+    <p>
+        A width media query in CSS applies styles specified in the stylesheet based on the width of the user's viewport,
+        or device. You can use <code>min-width or max-width</code>
+        to define breakpoints in the layout of your webpage.
+    </p>
+
+    <h2>Orientation</h2>
+    <p>
+        The orientation media query in CSS applies styles based on whether the browser window of the user is in
+        landscape or portrait mode, such as when someone's using a laptop
+        versus a phone.
+    </p>
+
+    <h2>Display-mode</h2>
+    <p>
+        The display-mode media query applies styles based on how the website is displayed, whether that's in a browser
+        tab, in an app, without the browser bar, fullscreen, etc.
+    </p>
+
+    <h2>Resolution</h2>
+    <p>
+        The resolution media query applies styles based on the pixel density of the device being used. This allows the
+        web designer to make different designs for the webpage
+        whether the user is seeing the website on a high-resolution screen, or a low-resolution screen. Using this media
+        query can provide users with higher-quality images
+        on higher resolution screens, and save bandwidth for users on standard displays by showing a lower resolution
+        image or hiding the high resolution one all together.
+    </p>
+
+
+</body>
+
+</html>
