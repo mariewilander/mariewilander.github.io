@@ -1,29 +1,21 @@
-@font-face {
-  font-family: "Outfit", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal; 
+
+
+p,
+li {
+    font-family: "Outfit"
 }
 
-@font-face {
-font-family: "Cherry Swash", serif;
-  font-weight: 700;
-  font-style: normal;
-}
-p, li {
-  font-family: "Outfit"
-}
-
-h2, h1 {
-  font-family: "Cherry Swash"
+h2,
+h1 {
+    font-family: "Cherry Swash"
 }
 
 h1 {
-  font-size: 6em
+    font-size: 6em
 }
 
 h1 {
-  background-image: url("Chicken adobo.jpg")
+    background-image: url("Chicken adobo.jpg")
 }
 
 h1 {
@@ -36,9 +28,9 @@ h1 {
 }
 
 h2 {
-  font-size: 3em
+    font-size: 3em
 }
 
 body {
-  background-color: #de92e8
+    background-color: #de92e8
 }
