@@ -29,6 +29,12 @@ h1 {
     border-style: groove;
 }
 
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 h2 {
     font-size: 3em
 }
