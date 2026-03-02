@@ -28,6 +28,7 @@ h1 {
 
 h1 {
     background-size: contain;
+    width: 100vw;
 }
 
 h2 {
