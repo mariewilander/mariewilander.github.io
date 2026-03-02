@@ -26,6 +26,10 @@ h1 {
   background-image: url("Chicken adobo.jpg")
 }
 
+h1 {
+    background-size: cover;
+}
+
 h2 {
   font-size: 3em
 }
