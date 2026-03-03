@@ -188,6 +188,7 @@ body {
     height: auto;
     border-radius: 30px;
     display: block;
+    transform: translateY(-30px)
     }
 
 }
