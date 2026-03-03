@@ -19,7 +19,7 @@ h1 {
 }
 
 h1 {
-    border-color: black;
+    background-size: cover;
     width: 100vw;
     height: 300px;
 }
