@@ -1,6 +1,7 @@
 #example {
     background-image: url("pink.jpg");
-    background-size: contain;
+    background-size: cover;
+    background-repeat: none;
 }
 img {
     width: 300px;
