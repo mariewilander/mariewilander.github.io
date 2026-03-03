@@ -95,6 +95,30 @@ body {
         display: none;
     }
 
+    .intro-layout {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: flex-start;
+    }
+
+    #description {
+        order: 1;
+        flex: 1;
+    }
+
+    #time {
+        order: 2;
+        flex: 0 0 auto;
+    }
+}
+
+@media (orientation: landscape) {
+    h1 {
+        background-image: none;
+    }
+}
+
 /**Desktop friendly CSS here **/
 /* 6-column landscape layout */
 @media (orientation: landscape) and (min-width: 900px) {
@@ -166,6 +190,7 @@ body {
     }
 
 }
+
 
 
 
