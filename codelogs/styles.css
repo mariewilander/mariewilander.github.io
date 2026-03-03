@@ -1,0 +1,38 @@
+#example {
+    background-image: url("pink.jpg");
+}
+
+.bree-serif-regular {
+  font-family: "Bree Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.lilita-one-regular {
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p {
+  font-family: "Bree Serif";
+}
+h1 {
+  font-family: "Lilita One";
+}
+
+.sec1 {
+  background-color: #d5c1e0;
+  padding: 10px;
+  border: 2px solid black;
+}
+
+.sec2 {
+  background-color: #e6a9eb;
+  padding: 10px;
+  border: 2px solid black;
+}
+.sec3 {
+  background-color: #d5c1e0;
+  padding: 10px;
+  border: 2px solid black;
+}

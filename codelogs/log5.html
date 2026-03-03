@@ -1,29 +1,89 @@
-
 <!DOCTYPE html>
 <html>
+
 <head>
-	
-	<!-- meta tags and title -->
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Images</title>
 
-	<!-- external and internal CSS -->
-	<link rel="stylesheet" href="styles.css" media="all">
-	<style>
-		/* in-file CSS here */
-	</style>
+    <!-- meta tags and title -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images</title>
 
-	<!-- external and internal JavaScript -->
-	<script src="scripts.js" defer></script>
-	<script>
-		// in-page JavaScript here
-	</script>
+    <!-- external and internal CSS -->
+    <link rel="stylesheet" href="styles.css" media="all">
+    <style>
+        /* in-file CSS here */
+    </style>
+
+    <!-- external and internal JavaScript -->
+    <script src="scripts.js" defer></script>
+    <script>
+        // in-page JavaScript here
+    </script>
 
 </head>
-<body>
 
-	<!-- HTML elements here -->
+<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+    <div class="sec1">
+        <h1>img vs. background-image</h1>
+        <p>You’d want to use an <code>img</code> tag if the picture is part of the content on the webpage. Using
+            <code>background-image</code> with CSS makes the image a design element. Google also doesn’t index
+            background images automatically, so for a screen reader to see a background image, you’d have to add alt
+            text. You’d also want to use the HTML img tag if you want the picture to be included if users wanted to
+            print the webpage.</p>
+
+        <p>Below is an example of the use of <code>background-image</code>.</p>
+        <p id=”example”>EXAMPLE</p>
+        <p>Below is an example of including a picture through an img HTML tag.</p>
+        <img src=”pink.jpg”>
+        <code>img src=”pink.jpg”</code>
+    </div>
+    <div class="sec2">
+        <h1>background-size and background-position</h1>
+        <p>One key CSS property that affects the display of background images is background-size. This property lets you
+            specify the size of the background image, with the default being the image’s natural size. You can use
+            values such as “cover” to scale the image as large as possible to cover the entire container area with a
+            possibility of clipping, or “contain” to scale to the largest size to fit the container, leaving space if
+            the ratios don’t match up. You can also use specific dimensions, such as with px or percentages to size the
+            image.</p>
+        <p>Example code: <code>#example { background: url(pink.jpg); background-size: 300px; }</code></p>
+
+        <p>Another key CSS property that affects the display of background images is background-position.You can use
+            this property to choose how the webpage places the background-image by using values such as “center”, “left
+            top”, x and y percentages, xpos and ypos, and inherit.</p>
+        <p>Example code: <code>#example { background: url(pink.jpg); background-position: right center; }</code></p>
+
+    </div>
+    <div class="sec3">
+        <h1>Compare and Contrast: GIF, PNG, JPG, WebP, and SVG</h1>
+
+        <p>GIF, PNG, JPG, WebP, and SVG all are different in how they compress photos, color depth, and scalability.
+            They all have their moments where one is more preferred over the other. JPG is best when you have a complex
+            photo. PNG’s are good for having transparency in the image, as well as line art. GIFs are great for simple
+            animations. WebP is good for supporting animation and transparency while still being efficient for any
+            browser. SVG is great for scalable vectors, such as for logos and icons.</p>
+
+        <p>JPGS have lossy compression, the smaller the file, the lower the quality. It’s great for photographs with
+            lots of pretty, complex colors. PNG’s have lossless compression, the higher the quality, the larger the
+            file. These files support transparency because they have an alpha channel, which is helpful for uploading
+            logos and graphics. GIFs only support 256 colors and are lossless. GIFs are not best for images because of
+            the limited amount of colors it supports. WebP has lossy and lossless compression. SVGs are vector-based,
+            and don’t have pixels. This gives SVG files the ability to be infinitely scalable without seeing a loss of
+            quality. These are great for icons, logos, and responsive web design.</p>
+
+        <p>JPG and WebP are great for photos with lots of detail. Most people use JPG for high-color photos, but WebP
+            can make the photos smaller in file size while still offering a similar level of quality. Both PNG and WebP
+            can be used for logos, overlays, and images with transparent backgrounds. SVG, since it’s infinitely
+            scalable, can ensure that a logo or vector looks high-quality no matter what screen resolution it’s viewed
+            on. Simple animations are supported by both GIF and WebP, although WebP offers lower file sizes for similar
+            or higher quality than GIF.</p>
+    </div>
 
 </body>
+
 </html>
