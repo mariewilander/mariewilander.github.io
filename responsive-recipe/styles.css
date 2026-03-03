@@ -9,17 +9,16 @@ h1 {
 }
 
 h1 {
-    font-size: 6em;
+    font-size: 5em;
 }
 
 h1 {
-    font-size: 6em;
-    text-align: center center;
+    text-align: center;
     background-image: url("Chicken adobo.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 400px;
+    height: 400px;
     padding: 40px 20px;
 }
 
