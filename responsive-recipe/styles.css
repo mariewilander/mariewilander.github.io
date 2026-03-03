@@ -90,6 +90,10 @@ body {
   border-radius: 30px;
   margin: 2em;
 }
+@media (orientation: portrait) {
+    #recipe-photo {
+        display: none;
+    }
 
 /**Desktop friendly CSS here **/
 /* 6-column landscape layout */

@@ -84,11 +84,8 @@ p {
     background-color: #cf9038;
     padding: 1em;
 }
-@media (orientation: portrait) {
-    #recipe-photo {
-        display: none;
-    }
-}
+
+
 
 /* PUT THE REST OF THE MOBILE BASLINE LAYOUT HERE */
 
