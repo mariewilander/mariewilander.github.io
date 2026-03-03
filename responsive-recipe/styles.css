@@ -23,11 +23,36 @@ h1 {
 }
 
 h1 span {
-      display: inline-block;
-    background-color: rgba(0, 0, 0, 0.45);
-    color: #fff;
+    display: inline-block;
+    background-color: black;
+    color: white;
     padding: 8px 16px;
     border-radius: 8px;
+}
+
+.intro-layout {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 24px;
+    margin: 24px;
+}
+
+#description {
+    flex: 1;
+    margin: 0;
+}
+
+#time {
+    min-width: 220px;
+}
+
+#time p {
+    margin: 0 0 8px;
+}
+
+#time {
+    min-width: auto;
 }
 
 h2 {
@@ -36,4 +61,8 @@ h2 {
 
 body {
     background-color: #de92e8
+}
+
+@media (max-width: 700px) .intro-layout {
+    flex-direction: column;
 }
