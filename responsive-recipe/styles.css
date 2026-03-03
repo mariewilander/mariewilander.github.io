@@ -92,3 +92,83 @@ body {
 }
 
 /**Desktop friendly CSS here **/
+/* 6-column landscape layout */
+@media (orientation: landscape) and (min-width: 900px) {
+    header {
+        display: grid;
+        grid-template-columns: repeat(6, minmax(0, 1fr));
+        gap: 1.5rem;
+        align-items: start;
+    }
+
+    h1 {
+        grid-column: 2 / 6;
+        grid-row: 1;
+        margin: 0;
+    }
+
+    #recipe-photo {
+        grid-column: 2 / 4;
+        grid-row: 2;
+    }
+
+    .intro-layout {
+        grid-column: 4 / 6;
+        grid-row: 2;
+        margin: 0;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: repeat(6, minmax(0, 1fr));
+        gap: 1.5rem;
+        margin: 0 2em 2em;
+    }
+
+    #ingredients,
+    #directions {
+        margin: 0;
+    }
+
+    #ingredients {
+        grid-column: 1 / span 2;
+    }
+
+    #directions {
+        grid-column: 3 / span 4;
+    }
+    h1 {
+        background-image: none;
+           font-size: 4em;
+    text-align: center;
+    background-image: none;
+    height: auto;
+    padding: 40px 20px;
+    }
+    
+   .intro-layout {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    margin: 24px;
+}
+    #recipe-photo {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 30px;
+    display: block;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+}
