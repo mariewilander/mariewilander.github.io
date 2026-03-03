@@ -19,7 +19,7 @@ h1 {
 }
 
 h1 {
-    background-size: cover;
+    background-size: contain;
     width: 100vw;
     height: 300px;
 }
