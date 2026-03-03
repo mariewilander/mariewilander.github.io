@@ -41,10 +41,20 @@ h1 span {
 #description {
     flex: 1;
     margin: 0;
+  font-size: 1.5em;
+  text-align: center;
+  background-color: #a36ee0;
+  padding: 2em;
+  border-radius: 30px
+  
 }
 
 #time {
     min-width: 220px;
+  background-color: white;
+   padding: 1.5em;
+  border-radius: 30px
+  
 }
 
 #time p {
@@ -65,4 +75,18 @@ body {
 
 @media (max-width: 700px) .intro-layout {
     flex-direction: column;
+}
+
+#ingredients {
+    background-color: #a36ee0;
+  padding: 2em;
+  border-radius: 30px;
+  margin: 2em;
+}
+
+#directions {
+  background-color: #a36ee0;
+  padding: 2em;
+  border-radius: 30px;
+  margin: 2em;
 }
