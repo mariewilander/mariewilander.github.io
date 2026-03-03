@@ -19,8 +19,6 @@ h1 {
 }
 
 h1 {
-    background-size: cover;
-    background-position: center;
     border-color: black;
     border-style: groove;
     width: 100vw;
