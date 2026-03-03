@@ -1,5 +1,3 @@
-
-
 p,
 li {
     font-family: "Outfit"
@@ -15,7 +13,11 @@ h1 {
 }
 
 h1 {
-    background-image: url("Chicken adobo.jpg")
+    font-size: 6em;
+    background-image: url("Chicken adobo.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h2 {
