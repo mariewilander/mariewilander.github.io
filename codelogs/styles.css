@@ -1,5 +1,9 @@
 #example {
     background-image: url("pink.jpg");
+    background-size: 300px;
+}
+img {
+    width: 300px;
 }
 
 .bree-serif-regular {
