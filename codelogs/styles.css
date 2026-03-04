@@ -1,7 +1,10 @@
 #example {
     background-image: url("pink.jpg");
-    background-size: 25%;
+    background-size: 100vw 20vh;
     background-repeat: none;
+  font-size: 10rem;
+  text-align: center;
+  margin: 1rem
 }
 img {
     width: 300px;
