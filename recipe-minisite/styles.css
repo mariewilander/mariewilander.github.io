@@ -1,0 +1,197 @@
+p,
+li {
+    font-family: "Outfit"
+}
+
+h2,
+h1 {
+    font-family: "Cherry Swash"
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h1 {
+    text-align: center;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    padding: 40px 20px;
+}
+
+#adobo {
+    background-image: url("Chicken adobo.jpg");
+}
+
+h1 span {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+.intro-layout {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 24px;
+    margin: 24px;
+}
+
+#description {
+    flex: 1;
+    margin: 0;
+  font-size: 0.8em;
+  background-color: #a36ee0;
+  padding: 2em;
+  border-radius: 30px
+  
+}
+
+#time {
+    min-width: 220px;
+  background-color: white;
+   padding: 1.5em;
+  border-radius: 30px
+  
+}
+
+#time p {
+    margin: 0 0 8px;
+  font-size: 0.8em
+}
+
+#time {
+    min-width: auto;
+}
+
+h2 {
+    font-size: 2em
+}
+
+body {
+    background-color: #de92e8
+}
+
+@media (max-width: 700px) .intro-layout{
+    flex-direction:column
+}
+
+#ingredients {
+    background-color: #a36ee0;
+  padding: 2em;
+  border-radius: 30px;
+  margin: 2em;
+}
+
+#directions {
+  background-color: #a36ee0;
+  padding: 2em;
+  border-radius: 30px;
+  margin: 2em;
+}
+@media (orientation: portrait) {
+    #recipe-photo {
+        display: none;
+    }
+
+    .intro-layout {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: flex-start;
+    }
+
+    #description {
+        order: 1;
+        flex: 1;
+    }
+
+    #time {
+        order: 2;
+        flex: 0 0 auto;
+    }
+}
+
+@media (orientation: landscape) {
+    h1 {
+        background-image: none;
+    }
+}
+
+/**Desktop friendly CSS here **/
+/* 6-column landscape layout */
+@media (orientation: landscape) and (min-width: 900px) {
+    header {
+        display: grid;
+        grid-template-columns: repeat(6, minmax(0, 1fr));
+        gap: 1.5rem;
+        align-items: start;
+    }
+
+    h1 {
+        grid-column: 2 / 6;
+        grid-row: 1;
+        margin: 0;
+    }
+
+    #recipe-photo {
+        grid-column: 2 / 4;
+        grid-row: 2;
+        transform: translateX(-75px)
+    }
+
+    .intro-layout {
+        grid-column: 4 / 6;
+        grid-row: 2;
+        margin: 0;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: repeat(6, minmax(0, 1fr));
+        gap: 1.5rem;
+        margin: 0 2em 2em;
+    }
+
+    #ingredients,
+    #directions {
+        margin: 0;
+    }
+
+    #ingredients {
+        grid-column: 1 / span 2;
+    }
+
+    #directions {
+        grid-column: 3 / span 4;
+    }
+    h1 {
+        background-image: none;
+           font-size: 4em;
+    text-align: center;
+    background-image: none;
+    height: auto;
+    padding: 40px 20px;
+    }
+    
+   .intro-layout {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    margin: 24px;
+}
+    #recipe-photo {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 30px;
+    display: block;
+    transform: translateY(-30px)
+    }
+
+}
