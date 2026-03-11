@@ -304,6 +304,20 @@ nav>ul>li>ul>li:hover a {
     color: var(--nav-hover-text-color);
 }
 
+#home {
+       display: flex;             /* Use Flexbox for layout */
+    justify-content: center;   /* Horizontally centers the content */
+    align-items: center;       /* Vertically centers the content */
+    height: 100vh;             /* Makes the container take up the full viewport height */
+    width: 100vw;              /* Makes the container take up the full viewport width */
+    margin: 0; 
+}
+
+#main {
+    background-image: url("cozykitchen.jpg");
+  background-blend-mode: multiply;
+}
+
 
 /* ----- MEDIA QUERY for landscape/desktop layout ----- */
 @media screen and (orientation: landscape) {
