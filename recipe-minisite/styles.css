@@ -25,6 +25,10 @@ h1 {
     background-image: url("Chicken adobo.jpg");
 }
 
+#esquites {
+    background-image: url ("esquites.jpg")
+}
+
 h1 span {
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.7);
