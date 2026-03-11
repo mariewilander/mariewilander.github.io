@@ -44,24 +44,22 @@ h1 span {
 #description {
     flex: 1;
     margin: 0;
-  font-size: 0.8em;
-  background-color: #a36ee0;
-  padding: 2em;
-  border-radius: 30px
-  
+    font-size: 0.8em;
+    background-color: #a36ee0;
+    padding: 2em;
+    border-radius: 30px
 }
 
 #time {
     min-width: 220px;
-  background-color: white;
-   padding: 1.5em;
-  border-radius: 30px
-  
+    background-color: white;
+    padding: 1.5em;
+    border-radius: 30px
 }
 
 #time p {
     margin: 0 0 8px;
-  font-size: 0.8em
+    font-size: 0.8em
 }
 
 #time {
@@ -76,23 +74,24 @@ body {
     background-color: #de92e8
 }
 
-@media (max-width: 700px) .intro-layout{
+@media (max-width: 700px) .intro-layout {
     flex-direction:column
 }
 
 #ingredients {
     background-color: #a36ee0;
-  padding: 2em;
-  border-radius: 30px;
-  margin: 2em;
+    padding: 2em;
+    border-radius: 30px;
+    margin: 2em;
 }
 
 #directions {
-  background-color: #a36ee0;
-  padding: 2em;
-  border-radius: 30px;
-  margin: 2em;
+    background-color: #a36ee0;
+    padding: 2em;
+    border-radius: 30px;
+    margin: 2em;
 }
+
 @media (orientation: portrait) {
     #recipe-photo {
         display: none;
@@ -169,29 +168,31 @@ body {
     #directions {
         grid-column: 3 / span 4;
     }
+
     h1 {
         background-image: none;
-           font-size: 4em;
-    text-align: center;
-    background-image: none;
-    height: auto;
-    padding: 40px 20px;
+        font-size: 4em;
+        text-align: center;
+        background-image: none;
+        height: auto;
+        padding: 40px 20px;
     }
-    
-   .intro-layout {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 24px;
-    margin: 24px;
-}
+
+    .intro-layout {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px;
+        margin: 24px;
+    }
+
     #recipe-photo {
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-    border-radius: 30px;
-    display: block;
-    transform: translateY(-30px)
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        border-radius: 30px;
+        display: block;
+        transform: translateY(-30px)
     }
 
 }
@@ -211,7 +212,7 @@ body {
     box-sizing: border-box;
 }
 
-.main-nav body{
+.main-nav body {
     margin: 0;
     padding: var(--nav-height) 0 0 0;
 }
@@ -304,18 +305,27 @@ nav>ul>li>ul>li:hover a {
     color: var(--nav-hover-text-color);
 }
 
-#home {
-       display: flex;             /* Use Flexbox for layout */
-    justify-content: center;   /* Horizontally centers the content */
-    align-items: center;       /* Vertically centers the content */
-    height: 100vh;             /* Makes the container take up the full viewport height */
-    width: 100vw;              /* Makes the container take up the full viewport width */
-    margin: 0; 
+h1#home {
+    display: flex;
+    /* Use Flexbox for layout */
+    justify-content: center;
+    /* Horizontally centers the content */
+    align-items: center;
+    /* Vertically centers the content */
+    height: 100vh;
+    /* Makes the container take up the full viewport height */
+    width: 100vw;
+    /* Makes the container take up the full viewport width */
+    margin: 0;
+    position: relative;
+    isolation: isolate;
+    color: #fff;
+    text-shadow: 0 3px 10px rgba(0, 0, 0, 0.9)
 }
 
-   #main {
-     background-image: url("cozykitchen.jpg");
-  background-blend-mode: multiply;
+#main {
+    background-image: url("cozykitchen.jpg");
+    background-blend-mode: multiply;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
