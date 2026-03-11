@@ -107,6 +107,11 @@ body {
         background-image: url("esquites.jpg");
     }
 
+    h1#buffalo {
+        background-image: url("https://iamhomesteader.com/wp-content/uploads/2021/02/buffalo-chex-mix-3-1024x683.jpg");
+
+    }
+
     #recipe-photo {
         display: none;
     }
