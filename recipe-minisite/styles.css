@@ -74,10 +74,11 @@ body {
     background-color: #de92e8
 }
 
-@media (max-width: 700px) .intro-layout {
-    flex-direction:column
+@media (max-width: 700px) {
+    .intro-layout {
+        flex-direction: column;
+    }
 }
-
 #ingredients {
     background-color: #a36ee0;
     padding: 2em;
@@ -248,12 +249,13 @@ body {
 }
 
 nav {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: var(--nav-height);
     background-color: var(--nav-bkgd-color);
+    z-index: 1000;
 }
 
 #navBurger {
@@ -261,6 +263,7 @@ nav {
     display: block;
     font-size: 2rem;
     color: var(--nav-text-color);
+    cursor: pointer;
     padding: 0.1em 0 0 0.3em;
     max-height: 2rem;
 }
