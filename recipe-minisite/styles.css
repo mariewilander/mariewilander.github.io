@@ -345,6 +345,7 @@ nav>ul>li>ul>li:hover a {
     }
 
     nav>ul {
+        max-height: none;
         overflow: visible;
     }
 

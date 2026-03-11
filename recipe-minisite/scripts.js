@@ -22,6 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // respond to clicks on the burger
     document.querySelector("#navBurger").addEventListener("click", function (e) {
+        e.stopPropagation();
         clickNav(false);
     });
 
@@ -30,6 +31,15 @@ document.addEventListener("DOMContentLoaded", function () {
     for (const eachMenu of allMenus) {
         // loop through collection of handles individually
         eachMenu.addEventListener("click", function (e) {
+            const topLink = eachMenu.querySelector(":scope > a");
+            const hasSubmenu = eachMenu.querySelector(":scope > ul");
+
+            if (hasSubmenu && topLink && topLink.getAttribute("href") === "#") {
+                e.preventDefault();
+            }
+
+            e.stopPropagation();
+
             let wasClicked = eachMenu.classList.contains("clicked");
             let allMenus2 = document.querySelectorAll("nav > ul > li");
             for (const eachMenu2 of allMenus2) {
@@ -47,5 +57,4 @@ document.addEventListener("DOMContentLoaded", function () {
             clickNav(true);
         }
     });
-
 });
