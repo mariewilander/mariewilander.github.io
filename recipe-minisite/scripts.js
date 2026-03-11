@@ -27,17 +27,22 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     // handles to all topline nav items
-    let allMenus = document.querySelectorAll("nav > ul > li");
+     let allMenus = document.querySelectorAll("nav > ul > li");
     for (const eachMenu of allMenus) {
         // loop through collection of handles individually
         eachMenu.addEventListener("click", function (e) {
             const topLink = eachMenu.querySelector(":scope > a");
             const hasSubmenu = eachMenu.querySelector(":scope > ul");
+            const clickedTopLink = topLink && (e.target === topLink || topLink.contains(e.target));
 
-            if (hasSubmenu && topLink && topLink.getAttribute("href") === "#") {
-                e.preventDefault();
+            // allow submenu links to follow their own href values
+            if (hasSubmenu && !clickedTopLink) {
+                return;
             }
 
+            if (hasSubmenu && clickedTopLink && topLink.getAttribute("href") === "#") {
+                e.preventDefault();
+            }
             e.stopPropagation();
 
             let wasClicked = eachMenu.classList.contains("clicked");
