@@ -117,7 +117,7 @@ body {
 }
 
 @media (orientation: landscape) {
-    h1 {
+    h1#adobo {
         background-image: none;
     }
 }
@@ -313,9 +313,12 @@ nav>ul>li>ul>li:hover a {
     margin: 0; 
 }
 
-#main {
-    background-image: url("cozykitchen.jpg");
+   #main {
+     background-image: url("cozykitchen.jpg");
   background-blend-mode: multiply;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
