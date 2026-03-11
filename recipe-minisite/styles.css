@@ -202,7 +202,7 @@ body {
 /* define variables */
 :root {
     --nav-height: 3rem;
-    --nav-bkgd-color: gray;
+    --nav-bkgd-color: #a36ee0;
     --nav-text-color: white;
     --nav-hover-bkgd-color: lightgray;
     --nav-hover-text-color: black;
