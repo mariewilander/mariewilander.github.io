@@ -197,7 +197,37 @@ body {
 
 }
 
-/*Navigation CSS*/
+
+
+h1#home {
+    display: flex;
+    /* Use Flexbox for layout */
+    justify-content: center;
+    /* Horizontally centers the content */
+    align-items: center;
+    /* Vertically centers the content */
+    height: 100vh;
+    /* Makes the container take up the full viewport height */
+    width: 100vw;
+    /* Makes the container take up the full viewport width */
+    margin: 0;
+    position: relative;
+    isolation: isolate;
+    color: #fff;
+    text-shadow: 0 3px 10px rgba(0, 0, 0, 0.9)
+}
+
+#main {
+    background-image: url("cozykitchen.jpg");
+    background-blend-mode: multiply;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+/* CSS for responsive menu demo */
 
 /* define variables */
 :root {
@@ -212,7 +242,7 @@ body {
     box-sizing: border-box;
 }
 
-.main-nav body {
+body {
     margin: 0;
     padding: var(--nav-height) 0 0 0;
 }
@@ -305,31 +335,6 @@ nav>ul>li>ul>li:hover a {
     color: var(--nav-hover-text-color);
 }
 
-h1#home {
-    display: flex;
-    /* Use Flexbox for layout */
-    justify-content: center;
-    /* Horizontally centers the content */
-    align-items: center;
-    /* Vertically centers the content */
-    height: 100vh;
-    /* Makes the container take up the full viewport height */
-    width: 100vw;
-    /* Makes the container take up the full viewport width */
-    margin: 0;
-    position: relative;
-    isolation: isolate;
-    color: #fff;
-    text-shadow: 0 3px 10px rgba(0, 0, 0, 0.9)
-}
-
-#main {
-    background-image: url("cozykitchen.jpg");
-    background-blend-mode: multiply;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
 
 /* ----- MEDIA QUERY for landscape/desktop layout ----- */
@@ -372,5 +377,9 @@ h1#home {
     nav>ul>li>a::after {
         content: "";
     }
-
+  nav>ul>li:hover>ul {
+        display: block;
+        visibility: visible;
+        max-height: 90vh;
+  }
 }
