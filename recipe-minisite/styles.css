@@ -83,6 +83,7 @@ body {
         flex-direction: column;
     }
 }
+
 #ingredients {
     background-color: #a36ee0;
     padding: 2em;
@@ -98,6 +99,14 @@ body {
 }
 
 @media (orientation: portrait) {
+    h1#adobo {
+        background-image: url("Chicken adobo.jpg");
+    }
+
+    h1#esquites {
+        background-image: url("esquites.jpg");
+    }
+
     #recipe-photo {
         display: none;
     }
@@ -122,6 +131,10 @@ body {
 
 @media (orientation: landscape) {
     h1#adobo {
+        background-image: none;
+    }
+
+    h1#esquites {
         background-image: none;
     }
 }
@@ -384,9 +397,10 @@ nav>ul>li>ul>li:hover a {
     nav>ul>li>a::after {
         content: "";
     }
-  nav>ul>li:hover>ul {
+
+    nav>ul>li:hover>ul {
         display: block;
         visibility: visible;
         max-height: 90vh;
-  }
+    }
 }
