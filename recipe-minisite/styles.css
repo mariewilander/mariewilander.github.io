@@ -1,11 +1,11 @@
 p,
 li {
-    font-family: "Outfit"
+    font-family: "Outfit";
 }
 
 h2,
 h1 {
-    font-family: "Cherry Swash"
+    font-family: "Cherry Swash";
 }
 
 h1 {
@@ -50,7 +50,7 @@ h1 span {
     font-size: 0.8em;
     background-color: #a36ee0;
     padding: 2em;
-    border-radius: 30px
+    border-radius: 30px;
 }
 
 /** Prep time and other time things **/
@@ -59,12 +59,12 @@ h1 span {
     min-width: 220px;
     background-color: white;
     padding: 1.5em;
-    border-radius: 30px
+    border-radius: 30px;
 }
 
 #time p {
     margin: 0 0 8px;
-    font-size: 0.8em
+    font-size: 0.8em;
 }
 
 #time {
@@ -72,11 +72,11 @@ h1 span {
 }
 
 h2 {
-    font-size: 2em
+    font-size: 2em;
 }
 
 body {
-    background-color: #de92e8
+    background-color: #de92e8;
 }
 
 @media (max-width: 700px) {
@@ -154,7 +154,7 @@ body {
     #recipe-photo {
         grid-column: 2 / 4;
         grid-row: 2;
-        transform: translateX(-75px)
+        transform: translateX(-75px);
     }
 
     .intro-layout {
@@ -206,7 +206,7 @@ body {
         height: auto;
         border-radius: 30px;
         display: block;
-        transform: translateY(-30px)
+        transform: translateY(-30px);
     }
 
     @media (orientation: landscape) {
@@ -240,7 +240,7 @@ h1#home {
     position: relative;
     isolation: isolate;
     color: #fff;
-    text-shadow: 0 3px 10px rgba(0, 0, 0, 0.9)
+    text-shadow: 0 3px 10px rgba(0, 0, 0, 0.9);
 }
 
 #main {
