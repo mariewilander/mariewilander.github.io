@@ -10,6 +10,10 @@ body {
     margin: 0;
 }
 
+main {
+    background-color: brown;
+}
+
 header {
     width: 100vw;
     height: 100vh;
@@ -87,13 +91,34 @@ p {
 
 #toggleDarkMode {
   padding: .8rem;
-  background-color: #383838;
   color: white;
+  background-color: #383838;
   border-radius: 6px;
   font-family: Tahoma;
   display: block;
-  margin: 1em auto;
+  margin: auto;
 }
+
+body.darkMode {
+  color: white;
+}
+
+body.darkMode #names {
+  background-color: #171616;
+}
+
+body.darkMode #size {
+  background-color: #010217;
+}
+
+body.darkMode #geography {
+  background-color: #171616;
+}
+
+body.darkMode #climate {
+  background-color: #010217;
+}
+
 
 
 
