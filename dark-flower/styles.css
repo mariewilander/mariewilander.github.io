@@ -1,0 +1,134 @@
+/* mobile-first design for Pacific Rhododendron layout */
+
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    width: 100vw;
+    height: 100vh;
+}
+
+#rhodiePic {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("rhododendron.jpeg");
+    background-size: cover;
+    background-position: center center;
+}
+
+#rhodieTitle {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+
+#rhodieTitle h1 {
+    position: absolute;
+    bottom: 0;
+    left: 1em;
+    color: white;
+    font-size: 2.5em;
+    width: calc(100vw - 2em);
+}
+
+h2 {
+    font-family: Verdana;
+    position: relative;
+    left: 5vw;
+    font-size: 2em;
+}
+
+h2,
+li,
+p {
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+li {
+    list-style-type: circle;
+    font-family: Tahoma;
+    font-size: 1.25em;
+
+}
+
+p {
+    font-family: Tahoma;
+    font-size: 1.25em;
+}
+
+#names {
+    background-color: #49a642;
+    padding: 1em;
+}
+
+#size {
+    background-color: #55a0a6;
+    padding: 1em;
+}
+
+#geography {
+    background-color: #a85cad;
+    padding: 1em;
+}
+
+#climate {
+    background-color: #cf9038;
+    padding: 1em;
+}
+
+#toggleDarkMode {
+  padding: .8rem;
+  background-color: #383838;
+  color: white;
+  border-radius: 6px;
+  font-family: Tahoma;
+  display: block;
+  margin: 1em auto;
+}
+
+
+
+/* PUT THE REST OF THE MOBILE BASLINE LAYOUT HERE */
+
+@media screen and (orientation: landscape) {
+    #rhodiePic {
+        width: 50vw;
+    }
+
+    #rhodieTitle {
+        width: 50vw;
+        left: 50vw;
+        background-color: #333;
+    }
+
+    #rhodieTitle h1 {
+        width: 45vw;
+    }
+
+    #names {
+        background-color: #cf3030;
+    }
+
+    #size {
+        background-color: #cf8a30;
+    }
+
+    #geography {
+        background-color: #464bd4;
+    }
+
+    #climate {
+        background-color: #8235bd;
+    }
+}
+
+/* REST OF THE DESKTOP LAYOUT HERE */
