@@ -6,10 +6,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // add a click function and handler
     darkModeButton.addEventListener("click", function (e) {
-        
+
         // when clicked, add class to the body called "darkMode"
         document.body.classList.toggle("darkMode");
-        
+
     });
 
 });
