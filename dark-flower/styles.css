@@ -15,6 +15,7 @@ main {
 }
 
 header {
+  position: relative;
     width: 100vw;
     height: 100vh;
 }
@@ -119,7 +120,9 @@ body.darkMode #climate {
   background-color: #010217;
 }
 
-
+body.darkMode main {
+    background-color: #010217;
+}
 
 
 /* PUT THE REST OF THE MOBILE BASLINE LAYOUT HERE */
