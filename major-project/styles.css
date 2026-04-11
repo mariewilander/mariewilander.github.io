@@ -1,0 +1,17 @@
+/* Background images */
+body {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#homepage {
+    background-image: url(P-HomePage.jpg);
+}
+
+/* Desktop screens background images */
+@media (min-width: 1025px) {
+    #homepage {
+        background-image: url(L-HomePage.jpg);
+    }
+}
