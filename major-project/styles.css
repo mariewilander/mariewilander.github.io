@@ -16,3 +16,18 @@ body {
         background-image: url(L-HomePage.jpg);
     }
 }
+
+/*Fonts*/
+h1 {
+    font-family: "Rye", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+p {
+    font-family: "Vidaloka", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
