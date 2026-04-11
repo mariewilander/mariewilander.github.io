@@ -52,14 +52,18 @@ p {
 
 }
 
-button {
+.start-button {
     font-family: "Rye", serif;
     font-size: 1rem;
     padding: 0.75em;
     border-radius: 10px;
-       background-color: #ede024;
-  box-shadow: 0 0 10px #ede024;
-  animation: neon-glow 1.5s infinite alternate; 
+    display: inline-block;
+    text-decoration: none;
+    color: #1e1e1e;
+    -webkit-text-fill-color: #1e1e1e;
+    background-color: #ede024;
+    box-shadow: 0 0 10px #ede024;
+    animation: neon-glow 1.5s infinite alternate;
 }
 
 @keyframes neon-glow {
