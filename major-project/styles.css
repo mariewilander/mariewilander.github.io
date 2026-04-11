@@ -8,6 +8,11 @@ body {
 
 #homepage {
     background-image: url(P-HomePage.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 /* Desktop screens background images */
@@ -23,14 +28,13 @@ h1 {
     font-weight: 400;
     font-style: normal;
     color: white;
-    text-align
-}
-
-h1 {
-    display: grid;
-    place-items: center;
-    height: 100vh;
     margin: 0;
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(2px);
+    color: white;
+    padding: 0.5rem;
+    border-radius: 10px;
+    font-size: 2rem;
 }
 
 p {
@@ -38,4 +42,12 @@ p {
     font-weight: 400;
     font-style: normal;
     color: white;
+    margin-top: 0.75rem;
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(2px);
+    color: white;
+    padding: 0.5rem;
+    border-radius: 10px;
+    font-size: 1.25rem;
+
 }
