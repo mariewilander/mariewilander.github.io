@@ -17,12 +17,20 @@ body {
     }
 }
 
-/*Fonts*/
+/*Fonts and text things*/
 h1 {
     font-family: "Rye", serif;
     font-weight: 400;
     font-style: normal;
     color: white;
+    text-align
+}
+
+h1 {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    margin: 0;
 }
 
 p {
