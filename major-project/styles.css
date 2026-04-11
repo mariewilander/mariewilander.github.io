@@ -51,3 +51,24 @@ p {
     font-size: 1.25rem;
 
 }
+
+button {
+    font-family: "Rye", serif;
+    font-size: 1rem;
+    padding: 0.75em;
+    border-radius: 10px;
+       background-color: #ede024;
+  box-shadow: 0 0 10px #ede024;
+  animation: neon-glow 1.5s infinite alternate; 
+}
+
+@keyframes neon-glow {
+  0%, 100% {
+    box-shadow: 0 0 5px #ede024, 0 0 10px #ede024;
+    background-color: #ede024;
+  }
+  50% {
+    box-shadow: 0 0 20px #eda70e, 0 0 40px #eda70e;
+    background-color: #eda70e;
+  }
+}
