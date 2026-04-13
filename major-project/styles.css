@@ -15,10 +15,22 @@ body {
     text-align: center;
 }
 
+#foyer {
+    background-image: url(P-Foyer.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 /* Desktop screens background images */
 @media (min-width: 1025px) {
     #homepage {
         background-image: url(L-HomePage.jpg);
+    }
+    #foyer {
+        background-image: url(L-Foyer.jpg);
     }
 }
 
@@ -64,6 +76,17 @@ p {
     background-color: #ede024;
     box-shadow: 0 0 10px #ede024;
     animation: neon-glow 1.5s infinite alternate;
+}
+
+.option1, .option2, .option3 {
+        font-family: "Rye", serif;
+    font-size: 1rem;
+    padding: 0.75em;
+    border-radius: 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: #1e1e1e;
+    -webkit-text-fill-color: #1e1e1e;
 }
 
 @keyframes neon-glow {
