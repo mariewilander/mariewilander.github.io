@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <!-- meta tags and title -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+
+    <!-- external and internal CSS -->
+    <link rel="stylesheet" href="styles.css" media="all">
+    <style>
+        /* in-file CSS here */
+    </style>
+
+    <!-- external and internal JavaScript -->
+    <script src="scripts.js" defer></script>
+    <script>
+        // in-page JavaScript here
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rye&family=Vidaloka&display=swap" rel="stylesheet">
+</head>
+
+<body id="librarysearch">
+    <p>Intrigued by the thousands of decaying books that line the walls of the library, you can't help but pull out a
+        few of them and fan through the pages. You pull out a fourth book, and the shelf starts moving. A secret door
+        reveals itself leading upstairs.</p>
+    <a class="option1" href="library.html">Leave It Alone</a>
+    <a class="option2" href="">Go Through Secret Door</a>
+    <footer>
+        <p>Photo by Peter Herrmann on Unsplash
+        </p>
+    </footer>
+
+</body>
+
+</html>

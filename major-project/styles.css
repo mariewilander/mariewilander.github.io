@@ -34,13 +34,18 @@ body {
     background-image: url(P-Library.jpg);
 }
 
+#librarysearch {
+    background-image: url(P-LibrarySearch.jpg);
+}
+
 #homepage,
 #foyer,
 #livingroom,
 #upstairs,
 #kitchen,
 #livingroomsearch,
-#library {
+#library,
+#librarysearch {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -73,8 +78,13 @@ body {
     #livingroomsearch {
         background-image: url(L-LivingRoomSearch.jpg);
     }
-     #library {
+
+    #library {
         background-image: url(L-Library.jpg);
+    }
+
+    #librarysearch {
+        background-image: url(L-LibrarySearch.jpg);
     }
 }
 
