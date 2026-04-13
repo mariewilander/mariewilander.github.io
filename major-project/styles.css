@@ -22,15 +22,19 @@ body {
     background-image: url(P-Upstairs.jpg);
 }
 
-#upstairs {
+#kitchen {
     background-image: url(P-Kitchen.jpg);
+}
+#livingroomsearch {
+    background-image: url(P-LivingRoomSearch.jpg);
 }
 
 #homepage,
 #foyer,
 #livingroom,
 #upstairs,
-#kitchen {
+#kitchen,
+#livingroomsearch {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -58,6 +62,9 @@ body {
 
     #kitchen {
         background-image: url(L-Kitchen.jpg);
+    }
+    #livingroomsearch {
+        background-image: url(L-LivingRoomSearch.jpg);
     }
 }
 

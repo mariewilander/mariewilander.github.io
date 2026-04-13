@@ -6,7 +6,7 @@
     <!-- meta tags and title -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Foyer</title>
+    <title>Living Room</title>
 
     <!-- external and internal CSS -->
     <link rel="stylesheet" href="styles.css" media="all">
@@ -24,12 +24,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Rye&family=Vidaloka&display=swap" rel="stylesheet">
 </head>
 
-<body id="foyer">
-    <p>You step into the decrepit manor. You see doors leading to what appears to be a kitchen, a living room, and
-        stairs that lead to the second floor. Where do you explore?</p>
-    <a class="option1" href="kitchen.html">Kitchen</a>
-    <a class="option2" href="upstairs.html">Upstairs</a>
-    <a class="option3" href="livingroom.html">Living Room</a>
+<body id="livingroomsearch">
+    <p>You search the cabinets for anything that could be helpful. Inside one of the cupboards, you find an old music
+        box. You wind it up, and it plays a familiar tune, yet you can't seem to remember where you've heard it.</p>
+    <a class="option1" href="foyer.html">Return to Foyer</a>
+    <a class="option2" href="">Explore the Library</a>
     <footer>
         <p>Photo by Peter Herrmann on Unsplash
         </p>
