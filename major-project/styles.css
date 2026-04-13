@@ -18,9 +18,14 @@ body {
     background-image: url(P-LivingRoom.jpg);
 }
 
+#upstairs {
+    background-image: url(P-Upstairs.jpg);
+}
+
 #homepage,
 #foyer,
-#livingroom {
+#livingroom,
+#upstairs {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -40,6 +45,10 @@ body {
 
     #livingroom {
         background-image: url(L-LivingRoom.jpg);
+    }
+
+    #upstairs {
+        background-image: url(L-Upstairs.jpg);
     }
 }
 
