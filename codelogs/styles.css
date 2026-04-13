@@ -52,3 +52,9 @@ h1 {
   padding: 10px;
   border: 2px solid black;
 }
+
+body {
+  background-color: #d5c1e0;
+  border-style: double;
+  padding: 5px;
+}
