@@ -8,15 +8,19 @@ body {
 
 #homepage {
     background-image: url(P-HomePage.jpg);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
 }
 
 #foyer {
     background-image: url(P-Foyer.jpg);
+}
+
+#livingroom {
+    background-image: url(P-LivingRoom.jpg);
+}
+
+#homepage,
+#foyer,
+#livingroom {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -29,8 +33,13 @@ body {
     #homepage {
         background-image: url(L-HomePage.jpg);
     }
+
     #foyer {
         background-image: url(L-Foyer.jpg);
+    }
+
+    #livingroom {
+        background-image: url(L-LivingRoom.jpg);
     }
 }
 
@@ -78,8 +87,10 @@ p {
     animation: neon-glow 1.5s infinite alternate;
 }
 
-.option1, .option2, .option3 {
-        font-family: "Rye", serif;
+.option1,
+.option2,
+.option3 {
+    font-family: "Rye", serif;
     font-size: 1.5rem;
     padding: 0.75em;
     margin: 0.75rem;
