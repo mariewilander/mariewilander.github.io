@@ -25,8 +25,13 @@ body {
 #kitchen {
     background-image: url(P-Kitchen.jpg);
 }
+
 #livingroomsearch {
     background-image: url(P-LivingRoomSearch.jpg);
+}
+
+#library {
+    background-image: url(P-Library.jpg);
 }
 
 #homepage,
@@ -34,7 +39,8 @@ body {
 #livingroom,
 #upstairs,
 #kitchen,
-#livingroomsearch {
+#livingroomsearch,
+#library {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -63,8 +69,12 @@ body {
     #kitchen {
         background-image: url(L-Kitchen.jpg);
     }
+
     #livingroomsearch {
         background-image: url(L-LivingRoomSearch.jpg);
+    }
+     #library {
+        background-image: url(L-Library.jpg);
     }
 }
 
