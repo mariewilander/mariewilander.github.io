@@ -28,7 +28,7 @@
     <p>You search the cabinets for anything that could be helpful. Inside one of the cupboards, you find an old music
         box. You wind it up, and it plays a familiar tune, yet you can't seem to remember where you've heard it.</p>
     <a class="option1" href="foyer.html">Return to Foyer</a>
-    <a class="option2" href="">Explore the Library</a>
+    <a class="option2" href="library.html">Explore the Library</a>
     <footer>
         <p>Photo by Peter Herrmann on Unsplash
         </p>
