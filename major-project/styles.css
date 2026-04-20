@@ -96,6 +96,10 @@ body {
     background-image: url(P-PurpleDoorWineCellar.jpg);
 }
 
+#purpledoorwine {
+    background-image: url(P-PurpleDoorWineCellarWine.jpg);
+}
+
 #homepage,
 #foyer,
 #livingroom,
@@ -117,7 +121,8 @@ body {
 #reddoorritualroom,
 #reddoorleavemask,
 #reddoormask,
-#purpledoor {
+#purpledoor,
+#purpledoorwine {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -215,6 +220,10 @@ body {
 
     #purpledoor {
         background-image: url(L-PurpleDoorWineCellar.jpg);
+    }
+
+    #purpledoorwine {
+        background-image: url(L-PurpleDoorWineCellarWine.jpg);
     }
 }
 /*Fonts and text things*/
