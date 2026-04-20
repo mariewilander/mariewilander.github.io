@@ -128,6 +128,10 @@ body {
     background-image: url(P-GalleryFight.jpg);
 }
 
+#gallerynothing {
+    background-image: url(P-GalleryNothing.jpg);
+}
+
 #homepage,
 #foyer,
 #livingroom,
@@ -157,7 +161,8 @@ body {
 #gallery,
 #gallerypaintings,
 #gallerywardrobe,
-#galleryfight {
+#galleryfight,
+#gallerynothing {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -240,7 +245,7 @@ body {
     #ridedumbwaiter {
         background-image: url(L-Dumbwaiter.jpg);
     }
-    
+
     #reddoorritualroom {
         background-image: url(L-RedDoorRitualRoom.jpg);
     }
@@ -288,7 +293,12 @@ body {
     #galleryfight {
         background-image: url(L-GalleryFight.jpg)
     }
+
+    #gallerynothing {
+        background-image: url(L-GalleryNothing.jpg)
+    }
 }
+
 /*Fonts and text things*/
 h1 {
     font-family: "Rye", serif;
