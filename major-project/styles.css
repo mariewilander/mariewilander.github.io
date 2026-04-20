@@ -81,11 +81,15 @@ body {
 }
 
 #reddoorritualroom {
-    background-image: url(RedDoorRitualRoom.jpg);
+    background-image: url(P-RedDoorRitualRoom.jpg);
 }
 
 #reddoorleavemask {
-    background-image: url(RedDoorRitualRoom.jpg);
+    background-image: url(P-RedDoorRitualRoom.jpg);
+}
+
+#reddoormask {
+    background-image: url(P-RedDoorRitualRoomMask.jpg);
 }
 
 #homepage,
@@ -107,7 +111,8 @@ body {
 #searchclothes,
 #ridedumbwaiter,
 #reddoorritualroom,
-#reddoorleavemask {
+#reddoorleavemask,
+#reddoormask {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -197,6 +202,10 @@ body {
 
     #reddoorleavemask {
         background-image: url(L-RedDoorRitualRoom.jpg);
+    }
+
+    #reddoormask {
+        background-image: url(L-RedDoorRitualRoomMask.jpg);
     }
 }
 /*Fonts and text things*/
