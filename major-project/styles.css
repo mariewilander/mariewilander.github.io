@@ -107,6 +107,10 @@ body {
 #bluedoorwater {
     background-image: url(P-BlueDoorWater.jpg);
 }
+
+#bluedoorescape {
+    background-image: url(P-BlueDoorEscape.jpg);
+}
 #homepage,
 #foyer,
 #livingroom,
@@ -131,7 +135,8 @@ body {
 #purpledoor,
 #purpledoorwine,
 #bluedoor,
-#bluedoorwater {
+#bluedoorwater,
+#bluedoorescape {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -241,6 +246,10 @@ body {
 
     #bluedoorwater {
         background-image: url(L-BlueDoorWater.jpg);
+    }
+
+    #bluedoorescape {
+        background-image: url(L-BlueDoorEscape.jpg;)
     }
 }
 /*Fonts and text things*/
