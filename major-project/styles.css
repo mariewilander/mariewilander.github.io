@@ -48,6 +48,10 @@ body {
   background-blend-mode: luminosity;
 }
 
+#bedroomfromlibrary {
+    background-image: url(P-Bedroom.jpg);
+}
+
 #homepage,
 #foyer,
 #livingroom,
@@ -57,7 +61,8 @@ body {
 #library,
 #librarysearch,
 #librarylookoutside,
-#libraryghostlyfigure {
+#libraryghostlyfigure,
+#bedroomfromlibrary {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -107,6 +112,10 @@ body {
         background-image: url(L-LibraryLookOutside.jpg);
         background-color: gray;
   background-blend-mode: luminosity;
+    }
+
+     #bedroomfromlibrary {
+        background-image: url(L-Bedroom.jpg);
     }
 }
 
