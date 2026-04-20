@@ -100,6 +100,10 @@ body {
     background-image: url(P-PurpleDoorWineCellarWine.jpg);
 }
 
+#bluedoor {
+    background-image: url(P-BlueDoorUndergroundLake.jpg);
+}
+
 #homepage,
 #foyer,
 #livingroom,
@@ -122,7 +126,8 @@ body {
 #reddoorleavemask,
 #reddoormask,
 #purpledoor,
-#purpledoorwine {
+#purpledoorwine,
+#bluedoor {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -225,6 +230,10 @@ body {
     #purpledoorwine {
         background-image: url(L-PurpleDoorWineCellarWine.jpg);
     }
+
+    #bluedoor {
+        background-image: url(L-BlueDoorUndergroundLake.jpg);
+    }
 }
 /*Fonts and text things*/
 h1 {
@@ -272,7 +281,8 @@ p {
 
 .option1,
 .option2,
-.option3 {
+.option3,
+.option4 {
     font-family: "Rye", serif;
     font-size: 1.5rem;
     padding: 0.75em;
