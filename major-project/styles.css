@@ -76,6 +76,10 @@ body {
     background-image: url(P-SearchClothes.jpg);
 }
 
+#ridedumbwaiter {
+    background-image: url(P-Dumbwaiter.jpg);
+}
+
 #homepage,
 #foyer,
 #livingroom,
@@ -92,7 +96,8 @@ body {
 #kitchensearch,
 #eatthecake,
 #laundryroom,
-#searchclothes {
+#searchclothes,
+#ridedumbwaiter {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -170,6 +175,10 @@ body {
 
     #searchclothes {
         background-image: url(L-SearchClothes.jpg);
+    }
+
+    #ridedumbwaiter {
+        background-image: url(L-Dumbwaiter.jpg);
     }
 }
 
