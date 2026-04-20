@@ -56,6 +56,10 @@ body {
     background-image: url(P-Bedroom.jpg);
 }
 
+#bedroomnoise {
+    background-image: url(P-BedroomNoise.jpg);
+}
+
 #homepage,
 #foyer,
 #livingroom,
@@ -67,7 +71,8 @@ body {
 #librarylookoutside,
 #libraryghostlyfigure,
 #bedroomfromlibrary,
-#bedroom {
+#bedroom,
+#bedroomnoise {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -125,6 +130,10 @@ body {
 
     #bedroom {
         background-image: url(L-Bedroom.jpg);
+    }
+
+    #bedroomnoise {
+        background-image: url(L-BedroomNoise.jpg);
     }
 }
 
