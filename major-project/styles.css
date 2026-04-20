@@ -68,6 +68,10 @@ body {
     background-image: url(P-EatTheCake.jpg);
 }
 
+#laundryroom {
+    background-image: url(P-LaundryRoomExplore.jpg);
+}
+
 #homepage,
 #foyer,
 #livingroom,
@@ -82,7 +86,8 @@ body {
 #bedroom,
 #bedroomnoise,
 #kitchensearch,
-#eatthecake {
+#eatthecake,
+#laundryroom {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -152,6 +157,10 @@ body {
 
     #eatthecake {
         background-image: url(L-EatTheCake.jpg);
+    }
+
+    #laundryroom {
+        background-image: url(L-LaundryRoomExplore.jpg);
     }
 }
 
