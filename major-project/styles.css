@@ -45,10 +45,14 @@ body {
 #libraryghostlyfigure {
     background-image: url(P-LibraryLookOutside.jpg);
     background-color: gray;
-  background-blend-mode: luminosity;
+    background-blend-mode: luminosity;
 }
 
 #bedroomfromlibrary {
+    background-image: url(P-Bedroom.jpg);
+}
+
+#bedroom {
     background-image: url(P-Bedroom.jpg);
 }
 
@@ -62,7 +66,8 @@ body {
 #librarysearch,
 #librarylookoutside,
 #libraryghostlyfigure,
-#bedroomfromlibrary {
+#bedroomfromlibrary,
+#bedroom {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -111,10 +116,14 @@ body {
     #libraryghostlyfigure {
         background-image: url(L-LibraryLookOutside.jpg);
         background-color: gray;
-  background-blend-mode: luminosity;
+        background-blend-mode: luminosity;
     }
 
-     #bedroomfromlibrary {
+    #bedroomfromlibrary {
+        background-image: url(L-Bedroom.jpg);
+    }
+
+    #bedroom {
         background-image: url(L-Bedroom.jpg);
     }
 }
