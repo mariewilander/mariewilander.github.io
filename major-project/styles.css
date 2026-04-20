@@ -80,6 +80,9 @@ body {
     background-image: url(P-Dumbwaiter.jpg);
 }
 
+#reddoorritualroom {
+    background-image: url(RedDoorRitualRoom.jpg);
+}
 #homepage,
 #foyer,
 #livingroom,
@@ -97,7 +100,8 @@ body {
 #eatthecake,
 #laundryroom,
 #searchclothes,
-#ridedumbwaiter {
+#ridedumbwaiter,
+#reddoorritualroom {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -180,8 +184,11 @@ body {
     #ridedumbwaiter {
         background-image: url(L-Dumbwaiter.jpg);
     }
+    
+    #reddoorritualroom {
+        background-image: url(L-RedDoorRitualRoom.jpg);
+    }
 }
-
 /*Fonts and text things*/
 h1 {
     font-family: "Rye", serif;
