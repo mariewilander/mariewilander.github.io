@@ -111,6 +111,11 @@ body {
 #bluedoorescape {
     background-image: url(P-BlueDoorEscape.jpg);
 }
+
+#gallery {
+    background-image: url(P-Gallery.jpg);
+}
+
 #homepage,
 #foyer,
 #livingroom,
@@ -136,7 +141,8 @@ body {
 #purpledoorwine,
 #bluedoor,
 #bluedoorwater,
-#bluedoorescape {
+#bluedoorescape,
+#gallery {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -250,6 +256,10 @@ body {
 
     #bluedoorescape {
         background-image: url(L-BlueDoorEscape.jpg;)
+    }
+
+    #gallery {
+        background-image: url(L-Gallery.jpg)
     }
 }
 /*Fonts and text things*/
