@@ -60,6 +60,14 @@ body {
     background-image: url(P-BedroomNoise.jpg);
 }
 
+#kitchensearch {
+    background-image: url(P-KitchenSearch.jpg);
+}
+
+#eatthecake {
+    background-image: url(P-EatTheCake.jpg);
+}
+
 #homepage,
 #foyer,
 #livingroom,
@@ -72,7 +80,9 @@ body {
 #libraryghostlyfigure,
 #bedroomfromlibrary,
 #bedroom,
-#bedroomnoise {
+#bedroomnoise,
+#kitchensearch,
+#eatthecake {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -134,6 +144,14 @@ body {
 
     #bedroomnoise {
         background-image: url(L-BedroomNoise.jpg);
+    }
+
+    #kitchensearch {
+        background-image: url(L-KitchenSearch.jpg);
+    }
+
+    #eatthecake {
+        background-image: url(L-EatTheCake.jpg);
     }
 }
 
