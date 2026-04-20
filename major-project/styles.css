@@ -104,6 +104,9 @@ body {
     background-image: url(P-BlueDoorUndergroundLake.jpg);
 }
 
+#bluedoorwater {
+    background-image: url(P-BlueDoorWater.jpg);
+}
 #homepage,
 #foyer,
 #livingroom,
@@ -127,7 +130,8 @@ body {
 #reddoormask,
 #purpledoor,
 #purpledoorwine,
-#bluedoor {
+#bluedoor,
+#bluedoorwater {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -233,6 +237,10 @@ body {
 
     #bluedoor {
         background-image: url(L-BlueDoorUndergroundLake.jpg);
+    }
+
+    #bluedoorwater {
+        background-image: url(L-BlueDoorWater.jpg);
     }
 }
 /*Fonts and text things*/
