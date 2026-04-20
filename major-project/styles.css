@@ -38,6 +38,10 @@ body {
     background-image: url(P-LibrarySearch.jpg);
 }
 
+#librarylookoutside {
+    background-image: url(P-LibraryLookOutside.jpg);
+}
+
 #homepage,
 #foyer,
 #livingroom,
@@ -45,7 +49,8 @@ body {
 #kitchen,
 #livingroomsearch,
 #library,
-#librarysearch {
+#librarysearch,
+#librarylookoutside {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -85,6 +90,10 @@ body {
 
     #librarysearch {
         background-image: url(L-LibrarySearch.jpg);
+    }
+
+    #librarylookoutside {
+        background-image: url(L-LibraryLookOutside.jpg);
     }
 }
 
