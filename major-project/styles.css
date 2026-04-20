@@ -123,6 +123,11 @@ body {
 #gallerywardrobe {
     background-image: url(P-GalleryWardrobe.jpg);
 }
+
+#galleryfight {
+    background-image: url(P-GalleryFight.jpg);
+}
+
 #homepage,
 #foyer,
 #livingroom,
@@ -151,7 +156,8 @@ body {
 #bluedoorescape,
 #gallery,
 #gallerypaintings,
-#gallerywardrobe {
+#gallerywardrobe,
+#galleryfight {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -277,6 +283,10 @@ body {
 
     #gallerywardrobe {
         background-image: url(L-GalleryWardrobe.jpg)
+    }
+
+    #galleryfight {
+        background-image: url(L-GalleryFight.jpg)
     }
 }
 /*Fonts and text things*/
