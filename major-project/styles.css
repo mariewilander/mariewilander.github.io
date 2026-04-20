@@ -42,6 +42,12 @@ body {
     background-image: url(P-LibraryLookOutside.jpg);
 }
 
+#libraryghostlyfigure {
+    background-image: url(P-LibraryLookOutside.jpg);
+    background-color: gray;
+  background-blend-mode: luminosity;
+}
+
 #homepage,
 #foyer,
 #livingroom,
@@ -50,7 +56,8 @@ body {
 #livingroomsearch,
 #library,
 #librarysearch,
-#librarylookoutside {
+#librarylookoutside,
+#libraryghostlyfigure {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -94,6 +101,12 @@ body {
 
     #librarylookoutside {
         background-image: url(L-LibraryLookOutside.jpg);
+    }
+
+    #libraryghostlyfigure {
+        background-image: url(L-LibraryLookOutside.jpg);
+        background-color: gray;
+  background-blend-mode: luminosity;
     }
 }
 
