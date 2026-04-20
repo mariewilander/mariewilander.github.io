@@ -116,6 +116,9 @@ body {
     background-image: url(P-Gallery.jpg);
 }
 
+#gallerypaintings {
+    background-image: url(P-GalleryPaintings.jpg);
+}
 #homepage,
 #foyer,
 #livingroom,
@@ -142,7 +145,8 @@ body {
 #bluedoor,
 #bluedoorwater,
 #bluedoorescape,
-#gallery {
+#gallery,
+#gallerypaintings {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -260,6 +264,10 @@ body {
 
     #gallery {
         background-image: url(L-Gallery.jpg)
+    }
+
+    #gallerypaintings {
+        background-image: url(L-GalleryPaintings.jpg)
     }
 }
 /*Fonts and text things*/
