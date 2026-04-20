@@ -72,6 +72,10 @@ body {
     background-image: url(P-LaundryRoomExplore.jpg);
 }
 
+#searchclothes {
+    background-image: url(P-SearchClothes.jpg);
+}
+
 #homepage,
 #foyer,
 #livingroom,
@@ -87,7 +91,8 @@ body {
 #bedroomnoise,
 #kitchensearch,
 #eatthecake,
-#laundryroom {
+#laundryroom,
+#searchclothes {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -161,6 +166,10 @@ body {
 
     #laundryroom {
         background-image: url(L-LaundryRoomExplore.jpg);
+    }
+
+    #searchclothes {
+        background-image: url(L-SearchClothes.jpg);
     }
 }
 
