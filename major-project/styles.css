@@ -83,6 +83,11 @@ body {
 #reddoorritualroom {
     background-image: url(RedDoorRitualRoom.jpg);
 }
+
+#reddoorleavemask {
+    background-image: url(RedDoorRitualRoom.jpg);
+}
+
 #homepage,
 #foyer,
 #livingroom,
@@ -101,7 +106,8 @@ body {
 #laundryroom,
 #searchclothes,
 #ridedumbwaiter,
-#reddoorritualroom {
+#reddoorritualroom,
+#reddoorleavemask {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -186,6 +192,10 @@ body {
     }
     
     #reddoorritualroom {
+        background-image: url(L-RedDoorRitualRoom.jpg);
+    }
+
+    #reddoorleavemask {
         background-image: url(L-RedDoorRitualRoom.jpg);
     }
 }
