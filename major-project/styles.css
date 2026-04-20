@@ -92,6 +92,10 @@ body {
     background-image: url(P-RedDoorRitualRoomMask.jpg);
 }
 
+#purpledoor {
+    background-image: url(P-PurpleDoorWineCellar.jpg);
+}
+
 #homepage,
 #foyer,
 #livingroom,
@@ -112,7 +116,8 @@ body {
 #ridedumbwaiter,
 #reddoorritualroom,
 #reddoorleavemask,
-#reddoormask {
+#reddoormask,
+#purpledoor {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -206,6 +211,10 @@ body {
 
     #reddoormask {
         background-image: url(L-RedDoorRitualRoomMask.jpg);
+    }
+
+    #purpledoor {
+        background-image: url(L-PurpleDoorWineCellar.jpg);
     }
 }
 /*Fonts and text things*/
