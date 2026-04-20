@@ -10,7 +10,8 @@ body {
     background-image: url(P-HomePage.jpg);
 }
 
-#foyer {
+#foyer, 
+#galleryrun {
     background-image: url(P-Foyer.jpg);
 }
 
@@ -162,7 +163,8 @@ body {
 #gallerypaintings,
 #gallerywardrobe,
 #galleryfight,
-#gallerynothing {
+#gallerynothing,
+#galleryrun {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -176,7 +178,8 @@ body {
         background-image: url(L-HomePage.jpg);
     }
 
-    #foyer {
+    #foyer,
+    #galleryrun {
         background-image: url(L-Foyer.jpg);
     }
 
