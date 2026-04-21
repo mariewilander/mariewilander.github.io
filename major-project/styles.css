@@ -142,6 +142,10 @@ body {
     background-image: url(P-SerpentChaseLivingRoomHide.jpg);
 }
 
+#serpentmusic {
+    background-image: url(P-SerpentChaseMusicBox.jpg);
+}
+
 #homepage,
 #foyer,
 #livingroom,
@@ -176,7 +180,8 @@ body {
 #galleryrun,
 #serpentlivingroom,
 #serpentlivingroomhide,
-#serpentlivingroomsearch {
+#serpentlivingroomsearch,
+#serpentmusic {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -320,6 +325,10 @@ body {
 
     #serpentlivingroomhide {
         background-image: url(L-SerpentChaseLivingRoomHide.jpg)
+    }
+
+    #serpentmusic {
+        background-image: url(L-SerpentChaseMusicBox.jpg)
     }
 }
 
