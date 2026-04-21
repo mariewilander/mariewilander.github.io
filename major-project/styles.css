@@ -137,6 +137,10 @@ body {
     background-image: url(P-SerpentChaseLivingRoom.jpg);
 }
 
+#serpentlivingroomhide {
+    background-image: url(P-SerpentChaseLivingRoomHide.jpg);
+}
+
 #homepage,
 #foyer,
 #livingroom,
@@ -169,7 +173,8 @@ body {
 #galleryfight,
 #gallerynothing,
 #galleryrun,
-#serpentlivingroom {
+#serpentlivingroom,
+#serpentlivingroomhide {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -308,6 +313,10 @@ body {
 
     #serpentlivingroom {
         background-image: url(L-SerpentChaseLivingRoom.jpg)
+    }
+
+    #serpentlivingroomhide {
+        background-image: url(L-SerpentChaseLivingRoomHide.jpg)
     }
 }
 
