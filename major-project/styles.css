@@ -23,7 +23,8 @@ body {
     background-image: url(P-Upstairs.jpg);
 }
 
-#kitchen {
+#kitchen,
+#serpentkitchen {
     background-image: url(P-Kitchen.jpg);
 }
 
@@ -181,7 +182,8 @@ body {
 #serpentlivingroom,
 #serpentlivingroomhide,
 #serpentlivingroomsearch,
-#serpentmusic {
+#serpentmusic,
+#serpentkitchen {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -208,7 +210,8 @@ body {
         background-image: url(L-Upstairs.jpg);
     }
 
-    #kitchen {
+    #kitchen,
+    #serpentkitchen {
         background-image: url(L-Kitchen.jpg);
     }
 
