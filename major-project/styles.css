@@ -180,6 +180,10 @@ body {
     background-image: url(P-SerpentChaseRedDoorHide.jpg);
 }
 
+#serpentwearmask {
+    background-image: url(P-SerpentChaseRedDoorMask.jpg);
+}
+
 #homepage,
 #foyer,
 #livingroom,
@@ -228,7 +232,8 @@ body {
 #serpentwrongdoor,
 #serpentreddoor,
 #serpentredhide,
-#serpentredsearch {
+#serpentredsearch,
+#serpentwearmask {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -410,6 +415,10 @@ body {
 
     #serpentredhide {
         background-image: url(L-SerpentChaseRedDoorHide.jpg);
+    }
+
+    #serpentwearmask {
+        background-image: url(L-SerpentChaseRedDoorMask.jpg);
     }
 
 }
