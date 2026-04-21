@@ -10,7 +10,7 @@ body {
     background-image: url(P-HomePage.jpg);
 }
 
-#foyer, 
+#foyer,
 #galleryrun {
     background-image: url(P-Foyer.jpg);
 }
@@ -152,6 +152,10 @@ body {
     background-image: url(P-SerpentChaseThrowCake.jpg);
 }
 
+#serpentkitchenhide {
+    background-image: url(P-SerpentChaseKitchenHide.jpg);
+}
+
 #homepage,
 #foyer,
 #livingroom,
@@ -190,7 +194,8 @@ body {
 #serpentmusic,
 #serpentkitchen,
 #serpentkitchensearch,
-#serpentthrowcake {
+#serpentthrowcake,
+#serpentkitchenhide {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -343,8 +348,12 @@ body {
     }
 
     #serpentthrowcake {
-    background-image: url(L-SerpentChaseThrowCake.jpg);
-}
+        background-image: url(L-SerpentChaseThrowCake.jpg);
+    }
+
+    #serpentkitchenhide {
+        background-image: url(L-SerpentChaseKitchenHide.jpg);
+    }
 }
 
 /*Fonts and text things*/
