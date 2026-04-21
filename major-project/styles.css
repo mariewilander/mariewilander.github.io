@@ -157,6 +157,10 @@ body {
     background-image: url(P-SerpentChaseKitchenHide.jpg);
 }
 
+#serpentlaundrysearch {
+    background-image: url(P-SerpentChaseLaundrySearch.jpg);
+}
+
 #homepage,
 #foyer,
 #livingroom,
@@ -197,7 +201,8 @@ body {
 #serpentkitchensearch,
 #serpentthrowcake,
 #serpentkitchenhide,
-#serpentlaundryroom {
+#serpentlaundryroom,
+#serpentlaundrysearch {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -356,6 +361,10 @@ body {
 
     #serpentkitchenhide {
         background-image: url(L-SerpentChaseKitchenHide.jpg);
+    }
+
+    #serpentlaundrysearch {
+        background-image: url(L-SerpentChaseLaundrySearch.jpg);
     }
 }
 
