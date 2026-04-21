@@ -72,7 +72,8 @@ body {
     background-image: url(P-EatTheCake.jpg);
 }
 
-#laundryroom {
+#laundryroom,
+#serpentlaundryroom {
     background-image: url(P-LaundryRoomExplore.jpg);
 }
 
@@ -195,7 +196,8 @@ body {
 #serpentkitchen,
 #serpentkitchensearch,
 #serpentthrowcake,
-#serpentkitchenhide {
+#serpentkitchenhide,
+#serpentlaundryroom {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -271,7 +273,8 @@ body {
         background-image: url(L-EatTheCake.jpg);
     }
 
-    #laundryroom {
+    #laundryroom,
+    #serpentlaundryroom {
         background-image: url(L-LaundryRoomExplore.jpg);
     }
 
