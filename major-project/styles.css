@@ -63,7 +63,8 @@ body {
     background-image: url(P-BedroomNoise.jpg);
 }
 
-#kitchensearch {
+#kitchensearch,
+#serpentkitchensearch {
     background-image: url(P-KitchenSearch.jpg);
 }
 
@@ -183,7 +184,8 @@ body {
 #serpentlivingroomhide,
 #serpentlivingroomsearch,
 #serpentmusic,
-#serpentkitchen {
+#serpentkitchen,
+#serpentkitchensearch {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -250,7 +252,8 @@ body {
         background-image: url(L-BedroomNoise.jpg);
     }
 
-    #kitchensearch {
+    #kitchensearch,
+    #serpentkitchensearch {
         background-image: url(L-KitchenSearch.jpg);
     }
 
