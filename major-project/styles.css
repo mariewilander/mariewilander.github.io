@@ -161,6 +161,10 @@ body {
     background-image: url(P-SerpentChaseLaundrySearch.jpg);
 }
 
+#serpentthrowamulet {
+    background-image: url(P-SerpentChaseThrowAmulet.jpg);
+}
+
 #homepage,
 #foyer,
 #livingroom,
@@ -202,7 +206,8 @@ body {
 #serpentthrowcake,
 #serpentkitchenhide,
 #serpentlaundryroom,
-#serpentlaundrysearch {
+#serpentlaundrysearch,
+#serpentthrowamulet {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -366,6 +371,10 @@ body {
     #serpentlaundrysearch {
         background-image: url(L-SerpentChaseLaundrySearch.jpg);
     }
+
+    #serpentthrowamulet {
+    background-image: url(L-SerpentChaseThrowAmulet.jpg);
+}
 }
 
 /*Fonts and text things*/
