@@ -81,7 +81,8 @@ body {
     background-image: url(P-SearchClothes.jpg);
 }
 
-#ridedumbwaiter {
+#ridedumbwaiter,
+#serpentdumbwaiter {
     background-image: url(P-Dumbwaiter.jpg);
 }
 
@@ -212,7 +213,8 @@ body {
 #serpentlaundryroom,
 #serpentlaundrysearch,
 #serpentthrowamulet,
-#serpentwearamulet {
+#serpentwearamulet,
+#serpentdumbwaiter {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -297,7 +299,8 @@ body {
         background-image: url(L-SearchClothes.jpg);
     }
 
-    #ridedumbwaiter {
+    #ridedumbwaiter,
+    #serpentdumbwaiter {
         background-image: url(L-Dumbwaiter.jpg);
     }
 
