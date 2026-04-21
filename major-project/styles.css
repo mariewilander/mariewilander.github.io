@@ -170,6 +170,10 @@ body {
     background-image: url(P-SerpentChaseWearAmulet.jpg);
 }
 
+#serpentwrongdoor {
+    background-image: url(P-SerpentChaseNotRedDoor.jpg);
+}
+
 #homepage,
 #foyer,
 #livingroom,
@@ -214,7 +218,8 @@ body {
 #serpentlaundrysearch,
 #serpentthrowamulet,
 #serpentwearamulet,
-#serpentdumbwaiter {
+#serpentdumbwaiter,
+#serpentwrongdoor {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -387,6 +392,10 @@ body {
     #serpentwearamulet {
         background-image: url(L-SerpentChaseWearAmulet.jpg);
     }
+
+    #serpentwrongdoor {
+    background-image: url(L-SerpentChaseNotRedDoor.jpg);
+}
 }
 
 /*Fonts and text things*/
