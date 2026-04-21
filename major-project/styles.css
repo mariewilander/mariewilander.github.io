@@ -165,6 +165,10 @@ body {
     background-image: url(P-SerpentChaseThrowAmulet.jpg);
 }
 
+#serpentwearamulet {
+    background-image: url(P-SerpentChaseWearAmulet.jpg);
+}
+
 #homepage,
 #foyer,
 #livingroom,
@@ -207,7 +211,8 @@ body {
 #serpentkitchenhide,
 #serpentlaundryroom,
 #serpentlaundrysearch,
-#serpentthrowamulet {
+#serpentthrowamulet,
+#serpentwearamulet {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -373,8 +378,12 @@ body {
     }
 
     #serpentthrowamulet {
-    background-image: url(L-SerpentChaseThrowAmulet.jpg);
-}
+        background-image: url(L-SerpentChaseThrowAmulet.jpg);
+    }
+
+    #serpentwearamulet {
+        background-image: url(L-SerpentChaseWearAmulet.jpg);
+    }
 }
 
 /*Fonts and text things*/
