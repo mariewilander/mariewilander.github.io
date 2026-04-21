@@ -95,7 +95,8 @@ body {
     background-image: url(P-RedDoorRitualRoom.jpg);
 }
 
-#reddoormask {
+#reddoormask,
+#serpentredsearch {
     background-image: url(P-RedDoorRitualRoomMask.jpg);
 }
 
@@ -226,7 +227,8 @@ body {
 #serpentdumbwaiter,
 #serpentwrongdoor,
 #serpentreddoor,
-#serpentredhide {
+#serpentredhide,
+#serpentredsearch {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -325,7 +327,8 @@ body {
         background-image: url(L-RedDoorRitualRoom.jpg);
     }
 
-    #reddoormask {
+    #reddoormask,
+    #serpentredsearch {
         background-image: url(L-RedDoorRitualRoomMask.jpg);
     }
 
