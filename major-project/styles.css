@@ -86,7 +86,8 @@ body {
     background-image: url(P-Dumbwaiter.jpg);
 }
 
-#reddoorritualroom {
+#reddoorritualroom,
+#serpentreddoor {
     background-image: url(P-RedDoorRitualRoom.jpg);
 }
 
@@ -219,7 +220,8 @@ body {
 #serpentthrowamulet,
 #serpentwearamulet,
 #serpentdumbwaiter,
-#serpentwrongdoor {
+#serpentwrongdoor,
+#serpentreddoor {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -309,7 +311,8 @@ body {
         background-image: url(L-Dumbwaiter.jpg);
     }
 
-    #reddoorritualroom {
+    #reddoorritualroom,
+    #serpentreddoor {
         background-image: url(L-RedDoorRitualRoom.jpg);
     }
 
