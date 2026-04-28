@@ -44,15 +44,15 @@ section {
 }
 
 /* apply background images to sections; section1 and section4 have the same background; note background styles in the section selector too */
-#section1 { background-image: url('images/geranimo-qzgN45hseN0-unsplash.jpg'); }
-#section2 { background-image: url('images/kristjan-kotar--h15p84GY5k-unsplash.jpg'); }
-#section3 { background-image: url('images/greg-rosenke-8F47XWiUPrQ-unsplash.jpg'); }
-#section4 { background-image: url('images/greg-rosenke-8F47XWiUPrQ-unsplash.jpg'); }
-#section5 { background-image: url('images/greg-rosenke-8F47XWiUPrQ-unsplash.jpg'); }
-#section6 { background-image: url('images/greg-rosenke-8F47XWiUPrQ-unsplash.jpg'); }
-#section7 { background-image: url('images/greg-rosenke-8F47XWiUPrQ-unsplash.jpg'); }
-#section8 { background-image: url('images/greg-rosenke-8F47XWiUPrQ-unsplash.jpg'); }
-#section9 { background-image: url('images/greg-rosenke-8F47XWiUPrQ-unsplash.jpg'); }
+#section1 { background-image: url('anne1.jpg'); }
+#section2 { background-image: url('anne2.jpg'); }
+#section3 { background-image: url('anne3.jpg'); }
+#section4 { background-image: url('anne4.png'); }
+#section5 { background-image: url('anne5.jpg'); }
+#section6 { background-image: url('anne6.jpg'); }
+#section7 { background-image: url('anne7.jpg'); }
+#section8 { background-image: url('anne8.jpg'); }
+#section9 { background-image: url('anne9.jpg'); }
 
 
 
