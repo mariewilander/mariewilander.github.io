@@ -77,3 +77,33 @@ section > .content {
     color: white;
     font-size: 2rem;
 }
+
+@media screen and (max-width: 920px) {
+  p {
+	  font-size: 1.2rem;
+  }
+
+	.borderOverlay {
+		border-width: 3rem 3rem 11rem 3rem;
+	}
+
+	#section2 { background-image: url('anne2.jpg');
+		  background-size: 100vh;}
+
+	#section3 { background-image: url('anne3.jpg'); 
+		  background-size: 100vh;}
+
+	#section4 { background-image: url('anne4.png'); 
+		  background-size: 100vh;}
+
+	#section5 { background-image: url('anne5.jpg'); 
+		  background-size: cover;}
+#section6 { background-image: url('anne6.jpg');
+		  background-size: 100vh;}
+#section7 { background-image: url('anne7.jpg'); 
+		  background-size: 100vh;}
+#section8 { background-image: url('anne8.jpg');
+		  background-size: 100vh;}
+#section9 { background-image: url('anne9.jpg'); 
+		  background-size: 100vh;}
+}
